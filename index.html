@@ -25,7 +25,7 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#experience">Certifications</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <!-- <li><a href="#blog">Blog</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
@@ -69,7 +69,7 @@
             <div class="about-content">
                 <div class="stats">
                     <div class="stat-item">
-                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-number" data-target="8">0</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
                     <div class="stat-item">
@@ -126,9 +126,6 @@
                         <span class="skill-tag">SQL</span>
                         <span class="skill-tag">PostgreSQL</span>
                         <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">SQLite</span>
-                        <span class="skill-tag">BigQuery</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -137,12 +134,10 @@
                     </div>
                     <h3>Visualization Tools</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Tableau</span>
                         <span class="skill-tag">Excel</span>
-                        <span class="skill-tag">Google Sheets</span>
-                        <span class="skill-tag">Plotly</span>
-                        <span class="skill-tag">D3.js</span>
+                        <span class="skill-tag">Pivot Tables</span>
+                        <span class="skill-tag">Dashboard</span>
+                        <span class="skill-tag">Slicers</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -151,12 +146,12 @@
                     </div>
                     <h3>Statistics & ML</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">EDA</span>
                         <span class="skill-tag">Hypothesis Testing</span>
-                        <span class="skill-tag">Regression Analysis</span>
-                        <span class="skill-tag">Clustering</span>
-                        <span class="skill-tag">Time Series</span>
-                        <span class="skill-tag">A/B Testing</span>
-                        <span class="skill-tag">Forecasting</span>
+                        <span class="skill-tag">Feature Scaling</span>
+                        <span class="skill-tag">Supervised learning</span>
+                        <span class="skill-tag">UnSupervised learning</span>
+                        <span class="skill-tag">Ensembling techniques</span>
                     </div>
                 </div>
             </div>
@@ -170,23 +165,28 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-shopping-cart"></i>
+                        <img src="icons/project1.png" alt="E-Commerce Sales Analytics">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">E-Commerce Sales Analytics</h3>
-                        <p class="project-description">Comprehensive analysis of online retail data to identify sales patterns, customer segments, and seasonal trends. Built interactive dashboards to track KPIs and forecast revenue.</p>
+                        <h3 class="project-title">BostonHousePricing</h3>
+                        <p class="project-description">Built a machine learning model to predict house prices using the Boston Housing dataset. Performed EDA, feature scaling, 
+                            and correlation analysis. Developed a Linear Regression model with pipelines, serialized using Pickle, and deployed on Render.</p>
                         <div class="project-skills">
-                            <span class="project-skill">SQL</span>
-                            <span class="project-skill">Python</span>
-                            <span class="project-skill">Power BI</span>
+                            <span class="project-skill">EDA</span>
+                            <span class="project-skill">Numpy</span>
                             <span class="project-skill">Pandas</span>
+                            <span class="project-skill">Scikit-learn</span>
+                            <span class="project-skill">Feature Scaling</span>
+                            <span class="project-skill">Matplotlib</span>
+                            <span class="project-skill">pickle</span>
+                            <span class="project-skill">Flask</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link primary">
+                            <a href="https://github.com/Jagan515/BostonHousePricing" class="project-link primary">
                                 <i class="fab fa-github"></i>
                                 View Code
                             </a>
-                            <a href="#" class="project-link secondary">
+                            <a href="https://bostonhousepricing-pxxt.onrender.com/" class="project-link secondary">
                                 <i class="fas fa-chart-bar"></i>
                                 Live Dashboard
                             </a>
@@ -196,57 +196,37 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-users"></i>
+                        <img src="icons/project2.png" alt="E-Commerce Sales Analytics">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Customer Segmentation Analysis</h3>
-                        <p class="project-description">Applied clustering algorithms to segment customers based on purchase behavior. Created targeted marketing strategies that increased conversion rates by 25%.</p>
+                        <h3 class="project-title">FlipkartAnalysis</h3>
+                        <p class="project-description">Scraped smartphone data from Flipkart, EDA, FeatureScaling, visualization, GridSearchCV for best parameters and Ensembling techniques. Built ML models to predict prices .</p>
                         <div class="project-skills">
-                            <span class="project-skill">Python</span>
+                            <span class="project-skill">Web Scriping</span>
+                            <span class="project-skill">beautifulsoup4</span>
+                            <span class="project-skill">Numpy</span>
+                            <span class="project-skill">Pandas</span>
                             <span class="project-skill">Scikit-learn</span>
-                            <span class="project-skill">Tableau</span>
-                            <span class="project-skill">K-Means</span>
+                            <span class="project-skill">Feature Scaling</span>
+                            <span class="project-skill">Matplotlib</span>
+                            <span class="project-skill">GridSearchCV</span>
+                            <span class="project-skill">RandomForest</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link primary">
+                            <a href="https://github.com/Jagan515/FlipkartAnalysis" class="project-link primary">
                                 <i class="fab fa-github"></i>
                                 View Code
                             </a>
-                            <a href="#" class="project-link secondary">
-                                <i class="fas fa-file-alt"></i>
-                                Case Study
-                            </a>
+                            <!-- <a href="https://github.com/Jagan515/FlipkartAnalysis" class="project-link secondary">
+                                <i class="fas fa-chart-bar"></i>
+                                Live Dashboard
+                            </a> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Financial Performance Dashboard</h3>
-                        <p class="project-description">Developed automated financial reporting system with real-time KPI tracking. Reduced manual reporting time by 80% and improved data accuracy across departments.</p>
-                        <div class="project-skills">
-                            <span class="project-skill">Power BI</span>
-                            <span class="project-skill">SQL</span>
-                            <span class="project-skill">DAX</span>
-                            <span class="project-skill">Excel</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link primary">
-                                <i class="fas fa-external-link-alt"></i>
-                                View Dashboard
-                            </a>
-                            <a href="#" class="project-link secondary">
-                                <i class="fas fa-file-alt"></i>
-                                Documentation
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
+                
+              
                     <div class="project-image">
                         <i class="fas fa-heartbeat"></i>
                     </div>
@@ -285,7 +265,7 @@
                 </div>
                 <h3>Download My Resume</h3>
                 <p>Get detailed information about my experience, education, and certifications in a comprehensive PDF format.</p>
-                <a href="#" class="resume-button" onclick="downloadResume()">
+                <a href="https://drive.google.com/file/d/1VY_Ke6cEgQTqk7SOejliISF3Trs8GX75/view?usp=sharing" class="resume-button" >
                     <i class="fas fa-download"></i>
                     Download PDF Resume
                 </a>
@@ -301,50 +281,55 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">2023 - Present</div>
-                        <h3 class="timeline-title">Senior Data Analyst</h3>
-                        <div class="timeline-company">TechCorp Solutions</div>
-                        <p class="timeline-description">Leading data-driven decision making across multiple business units. Developed automated reporting systems and advanced analytics models that improved operational efficiency by 30%.</p>
+                        <!-- <div class="timeline-date">2023 - Present</div> -->
+                        <h3 class="timeline-title">Gen Ai</h3>
+                        <div class="timeline-company">Disha Ai</div>
+                        <p class="timeline-description">Learn the fundamentals of Generative AI, including how it creates text, images, and 
+                            more using machine learning models. Build a strong foundation to explore real-world AI applications.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">2022</div>
-                        <h3 class="timeline-title">Google Data Analytics Certificate</h3>
-                        <div class="timeline-company">Google / Coursera</div>
-                        <p class="timeline-description">Comprehensive program covering data cleaning, analysis, and visualization. Mastered tools including SQL, R, and Tableau through hands-on projects.</p>
+                        <!-- <div class="timeline-date">2022</div> -->
+                        <h3 class="timeline-title">Microsoft Excel Comprehensive guide</h3>
+                        <div class="timeline-company">Udemy</div>
+                        <p class="timeline-description">Master Microsoft Excel with this comprehensive guide covering formulas, functions, charts, PivotTables, 
+                            and advanced data analysis tools. Build efficiency and expertise for both academic and professional use."</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">2021 - 2023</div>
-                        <h3 class="timeline-title">Data Analyst</h3>
-                        <div class="timeline-company">DataInsights Inc.</div>
-                        <p class="timeline-description">Analyzed customer behavior data for e-commerce clients. Created predictive models and dashboards that drove $2M+ in additional revenue through improved targeting strategies.</p>
+                        <!-- <div class="timeline-date">2021 - 2023</div> -->
+                        <h3 class="timeline-title">Data Analysis Bootcamp: Master Data Science Skills</h3>
+                        <div class="timeline-company">Udemy</div>
+                        <p class="timeline-description">Complete Data Analysis Bootcamp to master essential Data Science skills, tools, and techniques.
+                             Gain hands-on experience in Excel, SQL, Python, and Machine Learning for real-world problem solving.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">2022</div>
-                        <h3 class="timeline-title">Microsoft Power BI Data Analyst Associate</h3>
-                        <div class="timeline-company">Microsoft</div>
-                        <p class="timeline-description">Certified in designing and building scalable data models, cleaning and transforming data, and creating meaningful reports and visualizations.</p>
+                        <!-- <div class="timeline-date">2022</div> -->
+                        <h3 class="timeline-title"></h3>Data Structures & Algorithms</h3>
+                        <div class="timeline-company">iamneo</div>
+                        <p class="timeline-description">Earned certification in Data Structures & Algorithms – strengthened
+                             problem-solving skills with hands-on practice in core DSA concepts.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">2020 - 2021</div>
-                        <h3 class="timeline-title">Junior Data Analyst</h3>
-                        <div class="timeline-company">StartUp Analytics</div>
-                        <p class="timeline-description">Started career analyzing user engagement data for mobile applications. Developed SQL skills and created first automated reporting processes.</p>
+                        <!-- <div class="timeline-date">2024 Jan</div> -->
+                        <h3 class="timeline-title">C programming</h3>
+                        <div class="timeline-company">iamneo</div>
+                        <p class="timeline-description">Certified in C Programming – gained strong foundation in problem-solving,
+                             data structures, and algorithmic thinking using C.</p>
                     </div>
                 </div>
             </div>
@@ -352,7 +337,7 @@
     </section>
 
     <!-- Blog Section -->
-    <section id="blog" class="blog">
+    <!-- <section id="blog" class="blog">
         <div class="container">
             <h2 class="section-title">Latest Insights</h2>
             <div class="blog-grid">
@@ -396,7 +381,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
