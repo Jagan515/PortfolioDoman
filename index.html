@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="icons/image.png">
 
     <title>Jagan Pradhan - Data Analyst </title>
-    <meta name="description" content="Data Analyst specializing in SQL, Python, Power BI. Turning data into actionable business insights. View portfolio and projects.">
+    <meta name="description"
+        content="Data Analyst specializing in SQL, Python, Power BI. Turning data into actionable business insights. View portfolio and projects.">
     <meta name="keywords" content="Data Analyst, SQL, Python, Power BI, Business Intelligence, Data Science, Tableau">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body data-theme="light">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
@@ -24,7 +30,8 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Certifications</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <!-- <li><a href="#blog">Blog</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -44,7 +51,8 @@
             <div class="hero-content">
                 <div class="profile-photo">
                     <!-- Fixed the image path and added fallback content -->
-                    <img src="icons/profile.png" alt="Jagan Pradhan - Data Analyst" class="profile-img" onerror="this.style.display='none'; this.parentNode.innerHTML='<i class=\'fas fa-user\'></i>';">
+                    <img src="icons/profile.png" alt="Jagan Pradhan - Data Analyst" class="profile-img"
+                        onerror="this.style.display='none'; this.parentNode.innerHTML='<i class=\'fas fa-user\'></i>';">
                 </div>
                 <h1>Jagan Pradhan</h1>
                 <p class="tagline">Data Analyst | SQL | Python | Power BI | Turning Data into Business Insights</p>
@@ -53,7 +61,8 @@
                         <i class="fas fa-chart-bar"></i>
                         View My Projects
                     </a>
-                    <a href="https://drive.google.com/file/d/1VY_Ke6cEgQTqk7SOejliISF3Trs8GX75/view?usp=sharing" class="cta-button cta-secondary" >
+                    <a href="https://drive.google.com/file/d/1VY_Ke6cEgQTqk7SOejliISF3Trs8GX75/view?usp=sharing"
+                        class="cta-button cta-secondary">
                         <i class="fas fa-download"></i>
                         Download Resume
                     </a>
@@ -63,13 +72,13 @@
     </section>
 
     <!-- About Me Section -->
-    <section id="about" class="about">
+    <section id="about" class="about reveal">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="stats">
                     <div class="stat-item">
-                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-number" data-target="10">0</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
                     <div class="stat-item">
@@ -77,14 +86,19 @@
                         <div class="stat-label">B.Tech Years</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-number" data-target="10">0</div>
                         <div class="stat-label">Certifications</div>
                     </div>
                 </div>
                 <div class="about-text">
-                    <p>I'm a passionate data analyst with expertise in transforming raw data into actionable business insights. With a strong foundation in SQL, Python, and Power BI, I specialize in uncovering patterns and trends that drive strategic decision-making.</p>
-                    <p>My approach combines technical proficiency with business acumen, ensuring that data analysis directly contributes to organizational goals. I excel at data storytelling, making complex findings accessible to stakeholders at all levels.</p>
-                    <p>When I'm not diving deep into datasets, I enjoy contributing to the data community through blog posts and sharing insights on emerging analytics trends.</p>
+                    <p>I'm a passionate data analyst with expertise in transforming raw data into actionable business
+                        insights. With a strong foundation in SQL, Python, and Power BI, I specialize in uncovering
+                        patterns and trends that drive strategic decision-making.</p>
+                    <p>My approach combines technical proficiency with business acumen, ensuring that data analysis
+                        directly contributes to organizational goals. I excel at data storytelling, making complex
+                        findings accessible to stakeholders at all levels.</p>
+                    <p>When I'm not diving deep into datasets, I enjoy contributing to the data community through blog
+                        posts and sharing insights on emerging analytics trends.</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/jaganpradhan/" class="social-link" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
@@ -102,7 +116,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
+    <section id="skills" class="skills reveal">
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
@@ -117,7 +131,7 @@
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Pandas</span>
                         <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Go Lang</span>
+                        <!-- <span class="skill-tag">Go Lang</span> -->
                         <span class="skill-tag">Flask</span>
                         <span class="skill-tag">Matplotlib</span>
                         <span class="skill-tag">Seaborn</span>
@@ -135,6 +149,23 @@
                         <span class="skill-tag">MySQL</span>
                     </div>
                 </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>MLOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">CI/CD Pipelines</span>
+                        <span class="skill-tag">Model Deployment</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <!-- <span class="skill-tag">Model Versioning</span>
+                        <span class="skill-tag">Monitoring (Planned)</span> -->
+                    </div>
+                </div>
+
                 <div class="skill-category">
                     <div class="skill-icon">
                         <i class="fas fa-chart-pie"></i>
@@ -160,7 +191,7 @@
                         <span class="skill-tag">Supervised learning</span>
                         <span class="skill-tag">UnSupervised learning</span>
                         <span class="skill-tag">Ensembling techniques</span>
-                        
+
                     </div>
                 </div>
             </div>
@@ -168,19 +199,56 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="projects" class="projects reveal">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Project -->
-                  <div class="project-card">
+                <!-- Project Card -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="icons/project5.png" alt="Medi Search RAG Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PneumoXpert</h3>
+                        <p class="project-description">PneumoXpert addresses delayed and limited access
+                            to pneumonia diagnosis by providing fast, accurate, AI-powered chest X-ray screening,
+                            assisting clinicians, reducing workload, enabling early detection, and improving healthcare
+                            delivery
+                            in rural, overcrowded, and resource-constrained medical environments</p>
+                        <div class="project-skills">
+                            <span class="project-skill">Deep Learning</span>
+                            <span class="project-skill">Docker</span>
+                            <span class="project-skill">CNN</span>
+                            <span class="project-skill">GitHub Action</span>
+                            <span class="project-skill">Streamlit</span>
+                            <span class="project-skill">Python</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://pneumoxpert.streamlit.app/" class="project-link secondary">
+                                <i class="fas fa-chart-bar"></i>
+                                Live Dashboard
+                            </a>
+                            <a href="https://github.com/Jagan515/PneumoXpert?tab=readme-ov-file"
+                                class="project-link primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
                     <div class="project-image">
                         <img src="icons/project3.png" alt="Medi Search RAG Chatbot">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Medi Search</h3>
-                        <p class="project-description">Built a Flask-based AI medical assistant using RAG, LangChain ingestion pipeline (chunking, cleaning, embeddings) and Pinecone HNSW for fast semantic retrieval.
-                             Integrated OpenRouter LLMs to deliver accurate, low-hallucination medical answers, 
+                        <h3 class="project-title">AI Medical Assistant (RAG)</h3>
+                        <p class="project-description">Built a Flask-based AI medical assistant using RAG, LangChain
+                            ingestion pipeline (chunking, cleaning, embeddings) and Pinecone HNSW for fast semantic
+                            retrieval.
+                            Integrated OpenRouter LLMs to deliver accurate, low-hallucination medical answers,
                             enabling real-time, high-relevance Q&A with reduced latency.</p>
                         <div class="project-skills">
                             <span class="project-skill">Flask</span>
@@ -203,15 +271,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- second project card -->
+                <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="icons/project1.png" alt="E-Commerce Sales Analytics">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">BostonHousePricing</h3>
-                        <p class="project-description">Built a machine learning model to predict house prices using the Boston Housing dataset. Performed EDA, feature scaling, 
-                            and correlation analysis. Developed a Linear Regression model with pipelines, serialized using Pickle, and deployed on Render.</p>
+                        <p class="project-description">Built a machine learning model to predict house prices using the
+                            Boston Housing dataset. Performed EDA, feature scaling,
+                            and correlation analysis. Developed a Linear Regression model with pipelines, serialized
+                            using Pickle, and deployed on Render.</p>
                         <div class="project-skills">
                             <span class="project-skill">EDA</span>
                             <span class="project-skill">Numpy</span>
@@ -221,10 +291,10 @@
                             <span class="project-skill">Matplotlib</span>
                             <span class="project-skill">pickle</span>
                             <span class="project-skill">Flask</span>
-                             <span class="project-skill">Docker</span>
+                            <span class="project-skill">Docker</span>
                         </div>
                         <div class="project-links">
-                             <a href="https://bostonhousepricing-pxxt.onrender.com/" class="project-link secondary">
+                            <a href="https://bostonhousepricing-pxxt.onrender.com/" class="project-link secondary">
                                 <i class="fas fa-chart-bar"></i>
                                 Live Dashboard
                             </a>
@@ -232,18 +302,20 @@
                                 <i class="fab fa-github"></i>
                                 View Code
                             </a>
-                           
+
                         </div>
                     </div>
                 </div>
-                <!-- second project card -->
+                <!-- Project 4 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="icons/project2.png" alt="E-Commerce Sales Analytics">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">FlipkartAnalysis</h3>
-                        <p class="project-description">Scraped smartphone data from Flipkart, EDA, FeatureScaling, visualization, GridSearchCV for best parameters and Ensembling techniques. Built ML models to predict prices .</p>
+                        <p class="project-description">Scraped smartphone data from Flipkart, EDA, FeatureScaling,
+                            visualization, GridSearchCV for best parameters and Ensembling techniques. Built ML models
+                            to predict prices .</p>
                         <div class="project-skills">
                             <span class="project-skill">Web Scriping</span>
                             <span class="project-skill">beautifulsoup4</span>
@@ -267,17 +339,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- thrid project -->
-               
-
-                <!-- fourth project -->
+                <!-- Project 5 -->
 
                 <div class="project-card">
                     <div class="project-image">
                         <img src="icons/project4.png" alt="E-Commerce Sales Analytics">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">FlipkartAnalysis</h3>
+                        <h3 class="project-title">QR-Coder-Generator</h3>
                         <p class="project-description">
                             Supports custom short names so users can choose their own link alias.
                             Automatically generates QR codes for quick sharing.
@@ -293,7 +362,7 @@
                             <span class="project-skill">Vite</span>
                         </div>
                         <div class="project-links">
-                             <a href="https://jagan515.github.io/Url-shortner/" class="project-link secondary">
+                            <a href="https://jagan515.github.io/Url-shortner/" class="project-link secondary">
                                 <i class="fas fa-chart-bar"></i>
                                 Live Dashboard
                             </a>
@@ -301,14 +370,54 @@
                                 <i class="fab fa-github"></i>
                                 View Code
                             </a>
-                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="icons/project6.png" alt="E-Commerce Sales Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MergeMoney</h3>
+                        <p class="project-description">
+                            Secure expense-splitting and personal finance management platform. Implements OAuth2
+                            authentication,
+                            JWT-based security, and role-based access control for shared account access. Optimized with
+                            server-side pagination for efficient handling
+                            of large financial datasets. Built using the MERN stack and designed for scalable
+                            deployment.
+                        </p>
+                        <div class="project-skills">
+                            <span class="project-skill">MongoDB</span>
+                            <span class="project-skill">Express.js</span>
+                            <span class="project-skill">React</span>
+                            <span class="project-skill">Node.js</span>
+                            <span class="project-skill">Vercel</span>
+                            <span class="project-skill">Vite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://expense-react-client-nine.vercel.app/" class="project-link secondary">
+                                <i class="fas fa-chart-bar"></i>
+                                Live Dashboard
+                            </a>
+                            <a href="https://github.com/Jagan515/expense-react-client" class="project-link primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+
                         </div>
                     </div>
                 </div>
 
-                
-              
-                    
+                <!-- Add Project Card -->
+                <div class="project-card add-project-card">
+                    <div class="add-project-content">
+                        <i class="fas fa-plus"></i>
+                        <h3>Add New Project</h3>
+                        <p>Have a new idea? Let's bring it to life!</p>
+                        <a href="#contact" class="project-link primary">Get in Touch</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -323,8 +432,10 @@
                     <i class="fas fa-file-alt"></i>
                 </div>
                 <h3>Download My Resume</h3>
-                <p>Get detailed information about my experience, education, and certifications in a comprehensive PDF format.</p>
-                <a href="https://drive.google.com/file/d/1VY_Ke6cEgQTqk7SOejliISF3Trs8GX75/view?usp=sharing" class="resume-button" >
+                <p>Get detailed information about my experience, education, and certifications in a comprehensive PDF
+                    format.</p>
+                <a href="https://drive.google.com/file/d/1VY_Ke6cEgQTqk7SOejliISF3Trs8GX75/view?usp=sharing"
+                    class="resume-button">
                     <i class="fas fa-download"></i>
                     Download PDF Resume
                 </a>
@@ -333,7 +444,7 @@
     </section>
 
     <!-- Experience & Certifications Section -->
-    <section id="experience" class="experience">
+    <section id="certifications" class="experience reveal">
         <div class="container">
             <h2 class="section-title">Certifications</h2>
             <div class="timeline">
@@ -343,19 +454,23 @@
                         <!-- <div class="timeline-date">2023 - Present</div> -->
                         <h3 class="timeline-title">Gen Ai</h3>
                         <div class="timeline-company">Disha Ai</div>
-                        <p class="timeline-description">Learn the fundamentals of Generative AI, including how it creates text, images, and 
-                            more using machine learning models. Build a strong foundation to explore real-world AI applications.</p>
+                        <p class="timeline-description">Learn the fundamentals of Generative AI, including how it
+                            creates text, images, and
+                            more using machine learning models. Build a strong foundation to explore real-world AI
+                            applications.</p>
                     </div>
                 </div>
-                
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <!-- <div class="timeline-date">2022</div> -->
                         <h3 class="timeline-title">Microsoft Excel Comprehensive guide</h3>
                         <div class="timeline-company">Udemy</div>
-                        <p class="timeline-description">Master Microsoft Excel with this comprehensive guide covering formulas, functions, charts, PivotTables, 
-                            and advanced data analysis tools. Build efficiency and expertise for both academic and professional use."</p>
+                        <p class="timeline-description">Master Microsoft Excel with this comprehensive guide covering
+                            formulas, functions, charts, PivotTables,
+                            and advanced data analysis tools. Build efficiency and expertise for both academic and
+                            professional use.</p>
                     </div>
                 </div>
 
@@ -365,8 +480,10 @@
                         <!-- <div class="timeline-date">2021 - 2023</div> -->
                         <h3 class="timeline-title">Data Analysis Bootcamp: Master Data Science Skills</h3>
                         <div class="timeline-company">Udemy</div>
-                        <p class="timeline-description">Complete Data Analysis Bootcamp to master essential Data Science skills, tools, and techniques.
-                             Gain hands-on experience in Excel, SQL, Python, and Machine Learning for real-world problem solving.</p>
+                        <p class="timeline-description">Complete Data Analysis Bootcamp to master essential Data Science
+                            skills, tools, and techniques.
+                            Gain hands-on experience in Excel, SQL, Python, and Machine Learning for real-world problem
+                            solving.</p>
                     </div>
                 </div>
 
@@ -374,10 +491,11 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <!-- <div class="timeline-date">2022</div> -->
-                        <h3 class="timeline-title"></h3>Data Structures & Algorithms</h3>
+                        <h3 class="timeline-title">Data Structures & Algorithms</h3>
                         <div class="timeline-company">iamneo</div>
-                        <p class="timeline-description">Earned certification in Data Structures & Algorithms – strengthened
-                             problem-solving skills with hands-on practice in core DSA concepts.</p>
+                        <p class="timeline-description">Earned certification in Data Structures & Algorithms –
+                            strengthened
+                            problem-solving skills with hands-on practice in core DSA concepts.</p>
                     </div>
                 </div>
 
@@ -387,8 +505,9 @@
                         <!-- <div class="timeline-date">2024 Jan</div> -->
                         <h3 class="timeline-title">C programming</h3>
                         <div class="timeline-company">iamneo</div>
-                        <p class="timeline-description">Certified in C Programming – gained strong foundation in problem-solving,
-                             data structures, and algorithmic thinking using C.</p>
+                        <p class="timeline-description">Certified in C Programming – gained strong foundation in
+                            problem-solving,
+                            data structures, and algorithmic thinking using C.</p>
                     </div>
                 </div>
             </div>
@@ -443,13 +562,14 @@
     </section> -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact reveal">
         <div class="container">
             <h2 class="section-title">Let's Collaborate</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Get In Touch</h3>
-                    <p>Let's collaborate or discuss data-driven solutions! I'm always excited to work on challenging projects and help businesses unlock insights from their data.</p>
+                    <p>Let's collaborate or discuss data-driven solutions! I'm always excited to work on challenging
+                        projects and help businesses unlock insights from their data.</p>
                     <div class="contact-links">
                         <a href="mailto:jaganp515@gmail.com" class="contact-link">
                             <i class="fas fa-envelope"></i>
@@ -476,7 +596,8 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Tell me about your project or how I can help..." required></textarea>
+                        <textarea id="message" name="message"
+                            placeholder="Tell me about your project or how I can help..." required></textarea>
                     </div>
                     <button type="submit" class="submit-button">
                         <span class="button-text">Send Message</span>
@@ -500,7 +621,7 @@
                     <a href="https://github.com/Jagan515" aria-label="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
-                   
+
                     <a href=" https://www.kaggle.com/jaganpradhan0" aria-label="Kaggle">
                         <i class="fab fa-kaggle"></i>
                     </a>
@@ -509,6 +630,12 @@
             </div>
         </div>
     </footer>
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
